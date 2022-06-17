@@ -11,7 +11,7 @@ terraform {
 }
 
 resource "aws_iam_user" "ib"{
-  name = var.usernumber
+  name = "testuser"
   path = "/system/"
 
 }
